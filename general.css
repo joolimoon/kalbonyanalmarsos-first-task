@@ -1,0 +1,210 @@
+/* box-shadow: 3px 2px 12px 2px rgb(0 0 0 / 12%); */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  color: #011d5e;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.primary-heading {
+  font-size: 6.4rem;
+  color: #0e1036;
+  letter-spacing: -0.5px;
+  font-weight: 100;
+  margin-bottom: 3.2rem;
+}
+
+.primary-discription {
+  font-size: 2rem;
+  color: #011d5e;
+  margin-bottom: 4.8rem;
+}
+
+.secondery-heading {
+  font-size: 4.4rem;
+  color: #131231;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.fourthery-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.sub-heading {
+  font-size: 1.8rem;
+  color: #e4c439;
+  color: #3a3d79e1;
+  font-weight: 500;
+  margin-bottom: 3rem;
+  line-height: 1.4;
+}
+
+.small-sub-text {
+  font-size: 1.8rem;
+  color: #fe5663;
+  margin-bottom: 1.6rem;
+  font-weight: 500;
+}
+
+.grid {
+  display: grid;
+  gap: 3rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+}
+
+.center {
+  text-align: center;
+}
+
+*:focus {
+  outline: none;
+  outline-offset: 8px;
+  box-shadow: 0 0 0 0.8rem #ff3a6175(230, 125, 34, 0.5);
+}
+
+/* CHANGING BACKGROUND-COLOR FOR ICONS */
+/* i used class and add it in icons */
+
+.pink {
+  background-color: #e84e8a;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+}
+
+.whiteblue {
+  background-color: #3678ff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.orange {
+  background-color: #fa7741;
+}
+
+.cornflowerblue {
+  background-color: #698afb;
+}
+
+.green {
+  background-color: #3bb095;
+}
+
+/* i prefere the code above */
+/* 
+.feature-box:nth-child(2) .feature-icon {
+  background-color: #e84e8a;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+}
+.feature-box:nth-child(3) .feature-icon {
+  background-color: #3678ff;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.feature-box:nth-child(4) .feature-icon {
+  background-color: #fa7741;
+}
+.feature-box:nth-child(5) .feature-icon {
+  background-color: #698afb;
+}
+.feature-box:nth-child(6) .feature-icon {
+  background-color: #3bb095;
+} */
+
+/* social midea hover state */
+.social-links li:nth-child(1):hover {
+  background-color: #4267b2;
+}
+
+.social-links li:nth-child(1):hover i {
+  background-color: #4267b2;
+  color: white;
+}
+
+.social-links li:nth-child(1) i:hover {
+  background-color: #4267b2;
+  color: white;
+}
+
+.social-links li:nth-child(2):hover {
+  background-color: #fff;
+}
+
+.social-links li:nth-child(2):hover i {
+  color: #1da1f2;
+}
+
+.social-links li:nth-child(2) i:hover {
+  background-color: #fff;
+  color: #1da1f2;
+}
+
+.social-links li:nth-child(3):hover {
+  background-color: #e60023;
+  border-radius: 50%;
+}
+
+.social-links li:nth-child(3):hover i {
+  background-color: #e60023;
+  color: #fff;
+}
+
+.social-links li:nth-child(3) i:hover {
+  background-color: #e60023;
+  color: #fff;
+}
+
+.social-links li:nth-child(4):hover {
+  background-color: #0072b1;
+  border-radius: 50%;
+}
+
+.social-links li:nth-child(4):hover i {
+  background-color: #0072b1;
+  color: white;
+}
+
+.social-links li:nth-child(4) i:hover {
+  background-color: #0072b1;
+  color: white;
+}
+
+hr {
+  height: 1px;
+  background-color: rgba(128, 128, 128, 0.349);
+  border: none;
+}
